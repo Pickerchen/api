@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dp50"
+    android:background="@color/bg_white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dp25"
+    android:paddingRight="@dimen/dp21">
+
+    <ImageView
+        android:id="@+id/id_settings_adapter_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_notification_setting" />
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:id="@+id/id_settings_adapter_tv"
+        style="@style/SettingTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp30"
+        android:layout_toRightOf="@+id/id_settings_adapter_iv"
+        android:gravity="center_vertical"
+        android:text="@string/notification" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/btn_nest_nor" />
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/id_settings_adapter_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:layout_alignParentBottom="true"
+        android:background="@color/line_color" />
+</RelativeLayout>

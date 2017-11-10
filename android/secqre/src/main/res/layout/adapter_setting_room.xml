@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rrioo.smartlife.widget.BaseTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/dp20"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:text="room name"
+    android:textColor="@color/text_gray"
+    android:id="@+id/id_adapter_setting_room_tv"
+    android:textSize="@dimen/text_size_h6">
+    >
+
+</com.rrioo.smartlife.widget.BaseTextView>

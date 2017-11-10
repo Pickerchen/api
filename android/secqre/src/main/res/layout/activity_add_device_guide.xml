@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_device_guide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <include
+        android:id="@+id/layout_title_bar"
+        layout="@layout/common_title_layout" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_below="@id/layout_title_bar"
+        android:id="@+id/id_activity_add_device_guide_gif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_dark_animation" />
+
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:layout_below="@id/id_activity_add_device_guide_gif"
+        android:id="@+id/id_activity_add_device_guide_step_one_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_number_one"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/text_dark"
+        android:textSize="@dimen/text_size_h4" />
+
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:layout_below="@id/id_activity_add_device_guide_step_one_tv"
+        android:id="@+id/id_activity_add_device_guide_step_two_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_number_two"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/text_dark"
+        android:textSize="@dimen/text_size_h4" />
+
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:layout_below="@id/id_activity_add_device_guide_step_two_tv"
+        android:id="@+id/id_activity_add_device_guide_step_three_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_number_three"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/text_dark"
+        android:textSize="@dimen/text_size_h4" />
+
+
+    <Button
+        android:layout_marginBottom="20dp"
+        android:id="@+id/id_activity_add_device_guide_next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_blue"
+        android:text="@string/next"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:layout_above="@id/id_activity_add_device_guide_next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/next_when_green_flashing"
+        android:textSize="@dimen/text_size_h6" />
+
+</RelativeLayout>

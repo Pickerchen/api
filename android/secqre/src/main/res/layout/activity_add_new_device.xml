@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white_ff"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_add_device"
+        layout="@layout/common_title_layout" />
+
+
+    <LinearLayout
+        android:id="@+id/id_activity_add_new_device_scan_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.rrioo.smartlife.widget.SquareImageView
+            android:id="@+id/id_activity_add_new_device_wave_iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anim_add_device"
+            android:scaleType="fitCenter" />
+
+        <com.rrioo.smartlife.widget.BaseTextView
+            android:id="@+id/id_activity_add_new_device_hint_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:text="@string/looking_for_device"
+            android:textColor="@color/text_dark"
+            android:textSize="@dimen/text_size_h4" />
+
+        <com.rrioo.smartlife.widget.BaseTextView
+            android:id="@+id/id_activity_add_new_device_timer_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:maxLines="1"
+            android:textColor="@color/text_blue"
+            android:textSize="@dimen/text_size_h4"
+            tools:text="60S" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/id_activity_add_new_device_fail_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.rrioo.smartlife.widget.BaseTextView
+            android:id="@+id/tv_add_failed"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:drawablePadding="-120dp"
+            android:drawableTop="@drawable/ic_failed_add"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingTop="120dp"
+            android:text="@string/add_device_timeout"
+            android:textColor="@color/text_dark"
+            android:textSize="20sp" />
+
+        <com.rrioo.smartlife.widget.BaseTextView
+            android:id="@+id/id_activity_add_new_device_again_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/dp20"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/dp40"
+            android:background="@color/bg_blue"
+            android:gravity="center"
+            android:text="@string/try_again"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/text_size_h4" />
+    </LinearLayout>
+
+
+</LinearLayout>

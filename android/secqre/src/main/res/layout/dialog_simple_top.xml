@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:clickable="true"
+        android:id="@+id/id_dialog_simple_title_tv"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_size_h4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dp20"
+        android:paddingTop="@dimen/dp20"
+        android:text="title" />
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/line_color" />
+</LinearLayout>

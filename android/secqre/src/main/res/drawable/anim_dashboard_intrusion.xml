@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_intrusion00" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_intrusion01" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_intrusion02" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_intrusion03" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_intrusion04" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_intrusion05" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_intrusion06" />
+    <item android:duration="200" android:drawable="@drawable/ic_dashboard_intrusion07" />
+    <item android:duration="200" android:drawable="@drawable/ic_dashboard_intrusion08" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_intrusion09" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_intrusion10" />
+
+</animation-list>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:clickable="true"
+        android:id="@+id/id_dialog_simple_positive_tv"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/text_size_h5"
+        android:layout_width="0dp"
+        android:padding="@dimen/dp15"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/ok" />
+
+    <View
+        android:layout_width="@dimen/line"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:clickable="true"
+        android:id="@+id/id_dialog_simple_negative_tv"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/text_size_h5"
+        android:layout_width="0dp"
+        android:padding="@dimen/dp15"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/cancel" />
+</LinearLayout>

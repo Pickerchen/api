@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rrioo.smartlife.widget.SquareConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_home_device_layout"
+    style="@style/home_device_item_layout_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/dp120"
+    android:minWidth="@dimen/dp110"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/id_home_device_low_power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/dp8"
+        android:layout_marginTop="@dimen/dp8"
+        android:src="@drawable/ic_lowpower_devices"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:id="@+id/id_home_device_status_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp5"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/open"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_size_h6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:id="@+id/id_home_device_room_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:hint="@string/default_room"
+        android:maxLines="1"
+        android:textColor="@color/text_gray"
+        android:textColorHint="@color/text_gray"
+        android:textSize="@dimen/text_size_h7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_home_device_status_tv" />
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:id="@+id/id_home_device_name_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/light_device"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/text_size_h8"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_home_device_room_tv" />
+
+
+    <ImageView
+        android:id="@+id/id_home_device_delete_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/dp8"
+        android:layout_marginTop="@dimen/dp8"
+        android:src="@drawable/btn_removeout"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/id_home_device_setting_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp8"
+        android:layout_marginTop="@dimen/dp8"
+        android:src="@drawable/ic_more_normal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:gravity="center_horizontal"
+        android:id="@+id/id_home_device_icon_rl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-5dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:id="@+id/id_home_device_iv"
+            android:layout_width="@dimen/dp42"
+            android:layout_height="@dimen/dp42"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/btn_unknown_status"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+</com.rrioo.smartlife.widget.SquareConstraintLayout>

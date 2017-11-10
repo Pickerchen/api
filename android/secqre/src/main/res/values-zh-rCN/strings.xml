@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">secQre</string>
+
+    <string name="navigation_dashboard">控制台</string>
+    <string name="navigation_my_home">家庭</string>
+    <string name="navigation_scene">场景</string>
+    <string name="navigation_camera">摄像头</string>
+    <string name="navigation_settings">设置</string>
+
+    <string name="tap_to_set">点击开始设置</string>
+    <string name="want_to_happen">您希望有什么动作响应？</string>
+    <string name="turn_on_devices">开灯或接通插座电源</string>
+    <string name="turn_off_devices">关灯或切断插座电源</string>
+    <string name="set_dimmers">设置灯光亮度</string>
+    <string name="set_smart_home_monitor">设置监控器</string>
+    <string name="lock_these_doors">锁住这扇门</string>
+    <string name="unlock_these_doors">打开这扇门</string>
+    <string name="open_close_door">打开或关闭车库门</string>
+    <string name="set_thermostat">设置恒温器</string>
+    <!-- Dashboard -->
+    <string name="mode_away">离家模式</string>
+    <string name="mode_stay">在家模式</string>
+    <string name="mode_disarm">撤防模式</string>
+    <string name="security">布防模式</string>
+    <string name="dashboard_control">控制</string>
+    <string name="dashboard_sensor">传感器</string>
+    <string name="no_device">新设备</string>
+    <string name="configure">配置</string>
+    <string name="monitor_your_home">监控可燃气体，有害气体，温湿度，未经许可的闯入等家居环境</string>
+    <string name="select_sensors_monitor">选择一个侦测未经许可闯入的设备</string>
+    <string name="security_tips">配置未经许可的闯入发生时发送警报和通知方式</string>
+    <string name="switch_sensor">使用所有门磁开关传感器但不使用移动侦测传感器</string>
+    <string name="next">下一步</string>
+    <string name="select_sensors">选择传感器</string>
+    <string name="installed_device">常用设备</string>
+    <string name="add_favorite_device">添加常用设备</string>
+    <string name="delete">删除</string>
+    <string name="exit_edit">退出编辑模式</string>
+    <string name="did_not_find_model">请先连接到智能网关</string>
+    <string name="mode_away_hint">打开全部传感设备</string>
+    <string name="mode_stay_hint">除红外传感器外，其它设备全部打开</string>
+    <string name="mode_disarm_hint">除门磁、红外传感器、震动传感器外，其它设备全部打开</string>
+
+
+    <!-- My Home -->
+    <string name="home_devices">设备</string>
+    <string name="home_rooms">房间</string>
+    <string name="home_family">成员</string>
+    <string name="save_warn">保存修改？</string>
+    <string name="name_exists">存在重名配置</string>
+    <string name="name_blank">名称不能为空</string>
+    <!-- Device -->
+    <string name="action_device">控制设备</string>
+    <string name="sensor">传感器</string>
+    <string name="door_sensor">门磁传感器</string>
+    <string name="motion_sensor">移动侦测传感器</string>
+    <string name="light_device">智能灯</string>
+    <string name="zha_relay">继电器</string>
+    <string name="outlet_device">智能插座</string>
+    <string name="zha_sensor">标准ZigBee传感器器</string>
+    <string name="smoke_sensor">烟雾传感器</string>
+    <string name="gas_sensor">可燃气体传感器</string>
+    <string name="co_sensor">有害气体传感器</string>
+    <string name="shock_sensor">震动传感器</string>
+    <string name="leak_sensor">水浸传感器</string>
+    <string name="security_control_sensor">安防遥控器</string>
+    <string name="rcu">安防遥控器</string>
+    <string name="emergency_sensor">警报器</string>
+    <string name="alertor_sensor">警报器</string>
+    <string name="temp_hum_sensor">温湿度传感器</string>
+    <string name="humiture_sensor">温湿度传感器</string>
+    <string name="unknown_device">未知设备</string>
+    <string name="is_successfully_added">已成功添加</string>
+    <string name="remote">远程</string>
+    <string name="thermostat_device">恒温器</string>
+    <string name="camera">摄像头</string>
+
+
+    <string name="open">开启</string>
+    <string name="close">关闭</string>
+    <string name="stop">停止</string>
+    <string name="edit_device">编辑设备</string>
+    <string name="add_device">添加设备</string>
+    <string name="remove_device">删除设备</string>
+    <string name="delete_device_warn">删除此设备?</string>
+    <string name="looking_for_device">正在查找新设备\u2026</string>
+    <string name="device_name">设备名称</string>
+    <string name="select_room">选择房间</string>
+    <string name="select_camera">选择摄像头</string>
+    <!-- Room -->
+    <string name="delete_room_warn">删除此房间？</string>
+    <string name="add_new_room">添加新房间</string>
+    <string name="room_name">房间名称</string>
+    <string name="select_device">添加设备到房间</string>
+    <string name="edit_room">编辑房间</string>
+    <string name="remove_room">删除房间</string>
+    <string name="default_room">默认房间</string>
+
+    <!-- Scene -->
+    <string name="add_new_scene">添加新场景</string>
+    <string name="edit_scene">编辑场景</string>
+    <string name="change_position">改变位置</string>
+    <string name="scene_name">场景名称</string>
+    <string name="remove_scene">删除场景</string>
+    <string name="delete_scene_warn">删除此场景？</string>
+
+    <!--Camera-->
+    <string name="please_open_camera">请打开摄像头</string>
+    <string name="camera_offline">摄像头不在线</string>
+    <string name="camera_disconnect">摄像头断开连接</string>
+    <string name="reconnect_camera">正在尝试重新连接摄像头</string>
+    <string name="screenshot_failure">截图失败，请重试</string>
+    <string name="screenshot_success">截图成功，保存路径：</string>
+
+    <!-- Settings -->
+    <string name="pair_home">智能网关</string>
+    <string name="notification">通知中心</string>
+    <string name="security_mode">安防模式</string>
+    <string name="select_security_mode">选择安防模式</string>
+    <string name="automation"> 触发场景</string>
+    Automation
+    <string name="device">设备</string>
+    <string name="room">房间</string>
+    <string name="scene">场景</string>
+    <string name="members">成员</string>
+    <string name="region">区域</string>
+    <string name="support">关于</string>
+    <string name="room_device">设备 &#160;&amp;&#160;房间</string>
+
+
+    <string name="add_home">添加智能网关</string>
+    <string name="temperature_scale">温度显示单位</string>
+
+    <string name="camera_permission_denied">没有权限访问摄像头</string>
+    <string name="confirm_on_tv">在TV上确定</string>
+
+    <string name="anew_add_home">请删除智能网关，并重新扫描二维码！</string>
+
+    <!-- Support-->
+    <string name="version">版本号</string>
+
+
+    <!-- Temperature scale (℃ ℉) -->
+    <string name="temp_scale_c">℃</string>
+    <string name="temp_scale_f">℉</string>
+    <string name="remove_home">删除智能网关</string>
+    <string name="add_home_success">添加智能网关成功!</string>
+    <string name="add_home_failed">添加智能网关失败！</string>
+    <string name="add_home_timeout">添加智能网关超时！</string>
+    <string name="add_home_user_cancel">你取消了添加智能网关！</string>
+    <string name="add_home_identity_not_legal">身份验证不通过，添加智能网关失败！</string>
+    <string name="add_home_exist">智能网关已经被添加过了！</string>
+    <string name="add_home_anew">重新添加</string>
+    <string name="home_connected">已经连接到智能网关</string>
+    <string name="home_selected">智能网关已经被选中</string>
+
+    <string name="connection_successful">连接智能网关成功</string>
+    <string name="connection_failed">连接智能网关失败!</string>
+    <string name="connection_disconnect">与智能网关连接断开！</string>
+    <string name="connection_cancel">连接已被取消!</string>
+    <string name="connection_timeout">连接超时!</string>
+    <string name="authentication_failed">身份验证失败！</string>
+
+    <string name="scan_qr_info_tips">添加智能网关，请扫描电视屏幕上的二维码配对</string>
+    <string name="auto_home_name">智能网关<xliff:g id="index">%1$d</xliff:g></string>
+    <string name="done">完成</string>
+    <string name="try_again">重试</string>
+    <string name="home_name">智能网关名称</string>
+    <string name="photo">照片</string>
+
+    <string name="home_name_blank">智能网关名称不能为空</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="delete_home_warn">确认要删除智能网关吗?</string>
+
+    <!--Network-->
+    <string name="respond_time_out">请求超时</string>
+    <string name="online">在线</string>
+    <string name="offline">不在线</string>
+    <string name="no_network">网络故障</string>
+    <string name="please_connect_home">请先连接智能网关</string>
+
+
+    <!--other-->
+    <string name="press_again_to_exit">再按一次退出</string>
+    <string name="no_sdcard">没有sd卡</string>
+    <string name="pull_load_more">上拉加载更多</string>
+    <string name="loosen_load">松开加载</string>
+    <string name="pull_load">上拉加载</string>
+    <string name="loading">正在加载&#8230;</string>
+
+    <!--Common-->
+    <string name="confirm">确定</string>
+    <string name="back">返回</string>
+
+    <!--Members-->
+    <string name="identity_timeout">身份认证超时</string>
+
+    <!--Log-->
+    <string name="log">日志</string>
+    <string name="no_log">没有日志</string>
+    <string name="alert_log">警报日志</string>
+    <string name="look_alert_log">查看警报日志 ></string>
+
+    <!--设备状态语义化-->
+    <string name="unknown_status">离线</string>
+    <string name="device_added">设备被添加</string>
+    <string name="on">打开</string>
+    <string name="off">关闭</string>
+    <string name="door_open">门窗打开</string>
+    <string name="door_close">门窗关闭</string>
+    <string name="thing_move">物体移动</string>
+    <string name="sensor_trigger">报警</string>
+    <string name="sensor_trigger_infrared">触发</string>
+    <string name="sensor_get_right">正常</string>
+
+
+    <string name="door_sensor_status_normal">关闭</string>
+    <string name="door_sensor_status_trigger">开启</string>
+    <string name="motion_sensor_status_trigger">有人</string>
+
+    <!--日期-->
+    <string name="format_date_no_year">M月d日</string>
+    <string name="format_date_month">MM月</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="sunday">星期日</string>
+    <string name="edit">编辑</string>
+    <string name="add_new_device">添加更多设备</string>
+    <string name="add_step_one_motion_sensor">移除绝缘胶片给设备上电</string>
+    <string name="add_step_two_motion_sensor">长按组网键两秒，直到绿灯快闪</string>
+    <string name="add_step_three_motion_sensor">如果状态指示灯没有快闪，请长按组网键十秒来重置设备<!--，然后再短按组网键使配件进入绿灯快闪的组网状态--></string>
+    <string name="next_when_green_flashing">当绿灯快闪时，请按下一步</string>
+    <string name="add_step_one_socket">将智能插座插到插板上</string>
+    <string name="add_step_two_socket">长按组网键三秒，直到绿灯快闪</string>
+    <string name="add_step_three_socket">如果状态指示灯没有快闪，请长按组网键十秒来重置设备</string>
+
+    <string name="add_step_one_combustible">将可燃气体传感器插到插板上</string>
+    <string name="add_step_two_combustible">当发出一次“嘟嘟”的声音，LED灯会呈现红、绿、黄三色快速交替；闪动停止三分钟后，传感器就进入了正常的工作状态</string>
+    <string name="add_step_one_smoke">将烟雾传感器插到插板上</string>
+
+    <string name="socket">插座</string>
+    <string name="help">帮助</string>
+    <string name="add_device_failed">添加设备失败</string>
+    <string name="brightness">亮度</string>
+    <string name="tap_turn_on">点击打开</string>
+    <string name="color">颜色</string>
+    <string name="tap_turn_off">点击关闭</string>
+    <string name="reading">阅读</string>
+    <string name="relaxing">放松</string>
+    <string name="working">工作</string>
+    <string name="high_definition">高清</string>
+    <string name="standard_definition">标清</string>
+    <string name="add_device_timeout">添加设备超时</string>
+
+
+    <string name="current_tem">实时温度</string>
+    <string name="target_tem">目标温度</string>
+
+
+    <string-array name="device_name">
+        <item>传感器</item>
+        <item>移动侦测传感器</item>
+        <item>门磁传感器</item>
+        <item>温湿度传感器</item>
+        <item>水浸传感器</item>
+        <item>可燃气体传感器</item>
+        <item>烟雾传感器</item>
+
+        <item>控制设备</item>
+        <item>智能插座</item>
+
+        <!-- <item>远程</item>-->
+        <item>安防遥控器</item>
+
+        <!--<item>智能灯</item>
+        <item>控制设备</item>
+        <item>传感器</item>
+        <item>远程</item>
+        <item>标准ZigBee传感器器</item>
+        <item>有害气体传感器</item>
+        <item>震动传感器</item>
+        <item>警报器</item>-->
+
+    </string-array>
+
+
+    <string name="home">主页</string>
+    <string name="more">展开</string>
+    <string name="less">折叠</string>
+
+
+    <string name="guide_add_home">点击电视机上的配对房\n子并扫描二维码，以\n连接你的房子 "</string>
+    <string name="guide_set_camera">设置电视上的\"secQre setting\" \n应用的\"Wifi\" 摄像头，实\n时监控家庭情况.</string>
+    <string name="guide_add_device">添加设备，建立你\n的网关.</string>
+    <string name="create_scene">创建场景请点击图标 \"&#160;</string>
+
+    <string name="camera_dialog">正在使用非wifi网络， 播放\n将产生流量费用。 </string>
+    <string name="play">播放</string>
+    <string name="cancel">取消</string>
+
+    <string name="watch">查看</string>
+    <string name="string_delete_dev_title">提示</string>
+    <string name="string_delete_dev_msg">是否将\" %1$s \"从\"常用设备\"移除</string>
+
+    <string name="sure">确定</string>
+    <string name="delete_dev">从常用设备移除</string>
+    <string name="add_devices">添加到常用设备</string>
+    <string name="net_error">网络连接失败，请检查网络状况</string>
+    <string name="check_out_video">查看小视频 ></string>
+
+    <string name="Jan">一月</string>
+    <string name="Feb">二月</string>
+    <string name="Mar">三月</string>
+    <string name="Apr">四月</string>
+    <string name="May">五月</string>
+    <string name="Jun">六月</string>
+    <string name="Jul">七月</string>
+    <string name="Aug">八月</string>
+    <string name="Sept">九月</string>
+    <string name="Oct">十月</string>
+    <string name="Nov">十一月</string>
+    <string name="Dec">十二月</string>
+    <string name="ten_second_video">10秒小视频</string>
+    <string name="save_tips">您已保存</string>
+    <string name="save_success">保存成功</string>
+    <string name="hint">提示</string>
+    <string name="create_automation">创建自动化</string>
+    <string name="string_auto_hint">您的配件会根据环境或时间自动调整运行状态</string>
+    <string name="when_this_happens">当这些发生</string>
+    <string name="do_this">这样做</string>
+    <string name="condition">条件</string>
+    <string name="hint_delete_auto">是否删除这个自动化</string>
+
+    <string name="hint_no_auto_dev">请选择一个设备进行绑定</string>
+    <string name="tips_on_off">满足此条件时候%1$s</string>
+    <string name="tip_auto_item_top"> %1$s状态%2$s%3$s</string>
+    <string name="connecting">正在连接中...</string>
+    <string name="ok">ok</string>
+    <string name="string_camera_hint">操作需要相机权限，应用将要申请相机权限</string>
+
+    <string name="did_not_find_home">没有发现网关！请添加网关</string>
+    <string name="connect_network_failed">网络连接失败，请检查网络状况</string>
+    <string name="string_window">[悬浮窗]</string>
+    <string name="record_time_format">正在录制 %1$s:%2$s:%3$s</string>
+    <string name="snapshot_succ">截图成功!</string>
+    <string name="not_support">暂不支持!</string>
+    <string name="record_fail">录像失败!</string>
+    <string name="record_succ">录像文件路径</string>
+    <string name="device_and_room">设备和房间</string>
+    <string name="turn_off">关闭</string>
+    <string name="turn_on">打开</string>
+    <string name="refrigeration">制冷</string>
+    <string name="heating">制热</string>
+</resources>

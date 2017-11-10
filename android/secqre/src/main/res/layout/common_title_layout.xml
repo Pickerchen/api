@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_navigation_height"
+    android:background="@color/bg_white">
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:clickable="true"
+        android:background="@drawable/button_ripple"
+        android:id="@+id/id_common_title_back"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/dp_common_padding_large"
+        android:layout_marginStart="@dimen/dp_common_padding_large"
+        android:drawableLeft="@drawable/selector_back"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:text="@string/back"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_size_h2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:id="@+id/id_common_title_done"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/dp_common_padding_large"
+        android:layout_marginRight="@dimen/dp_common_padding_large"
+        android:gravity="center_vertical"
+        android:text="@string/done"
+        android:textColor="@color/text_blue"
+        android:textSize="@dimen/text_size_h2"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/id_common_title_add"
+        android:layout_width="@dimen/dp48"
+        android:layout_height="@dimen/dp48"
+        android:layout_marginEnd="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp10"
+        android:scaleType="center"
+        android:src="@drawable/btn_add_default_setting"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/line"
+        android:background="@color/line_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>

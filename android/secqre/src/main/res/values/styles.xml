@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@android:color/transparent</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Activity</item>
+    </style>
+
+    <style name="DialogBaseStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 去黑边 -->
+        <item name="android:windowFrame">@android:color/transparent</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 悬浮 -->
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="NavigationTextStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_blue</item>
+        <item name="android:textSize">@dimen/sp22</item>
+    </style>
+
+    <style name="main_title">
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">@dimen/text_size_h5</item>
+        <item name="android:layout_marginLeft">@dimen/dp8</item>
+        <item name="android:layout_marginBottom">@dimen/dp5</item>
+    </style>
+
+    <style name="home_device_item_layout_style">
+        <item name="android:background">@drawable/selector_control_device_on_off</item>
+        <!--<item name="android:padding">5dp</item>-->
+    </style>
+
+    <!--常用列表删除设备Icon-->
+    <style name="btnDevDel">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:src">@drawable/btn_removeout</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SettingTextStyle">
+        <item name="android:textSize">@dimen/text_size_h4</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="dialog_fromBottom_anim">
+        <item name="android:windowEnterAnimation">@anim/slide_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_bottom_out</item>
+    </style>
+</resources>

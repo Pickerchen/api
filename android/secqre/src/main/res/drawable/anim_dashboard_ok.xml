@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok00" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok01" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok02" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok03" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok04" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok05" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok06" />
+    <item android:duration="200" android:drawable="@drawable/ic_dashboard_ok07" />
+    <item android:duration="200" android:drawable="@drawable/ic_dashboard_ok08" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok09" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok10" />
+    
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok00" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok01" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok02" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok03" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok04" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok05" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok06" />
+    <item android:duration="200" android:drawable="@drawable/ic_dashboard_ok07" />
+    <item android:duration="200" android:drawable="@drawable/ic_dashboard_ok08" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok09" />
+    <item android:duration="100" android:drawable="@drawable/ic_dashboard_ok10" />
+
+</animation-list>

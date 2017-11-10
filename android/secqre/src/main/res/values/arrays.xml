@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="cfg_content">
+        <item>@string/mode_away</item>
+        <item>@string/mode_stay</item>
+        <item>@string/mode_disarm</item>
+    </string-array>
+
+
+    <string-array name="settings_content">
+        <item>@string/notification</item>
+        <item>@string/security_mode</item>
+        <item>@string/scene</item>
+        <item>@string/device_and_room</item>
+        <item>@string/pair_home</item>
+        <item>@string/members</item>
+        <item>@string/support</item>
+        <!-- <item>@string/room_device</item>-->
+    </string-array>
+
+    <string-array name="pager_effects" translatable="false">
+        <item>standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+
+
+    <string-array name="setting_images">
+        <item>@drawable/ic_montion_device_setting</item>
+        <item>@drawable/ic_door_device_setting</item>
+        <item>@drawable/ic_temperature_humidity_device_setting</item>
+        <item>@drawable/ic_leak_device_setting</item>
+        <item>@drawable/ic_gas_device_setting</item>
+        <item>@drawable/ic_smoke_device_setting</item>
+        <item>@drawable/ic_socket_device_setting</item>
+        <item>@drawable/ic_rcu_device_setting</item>
+    </string-array>
+
+
+    <string-array name="help_images">
+        <item>@drawable/ic_montion_help_setting</item>
+        <item>@drawable/ic_door_help_setting</item>
+        <item>@drawable/ic_temperature_humidity_help_setting</item>
+        <item>@drawable/ic_leak_help_setting</item>
+        <item>@drawable/ic_gas_help_setting</item>
+        <item>@drawable/ic_smoke_help_setting</item>
+        <item>@drawable/ic_socket_help_setting</item>
+        <item>@drawable/ic_rcu_help_setting</item>
+    </string-array>
+
+
+    <string-array name="month">
+        <item>@string/Jan</item>
+        <item>@string/Feb</item>
+        <item>@string/Mar</item>
+        <item>@string/Apr</item>
+        <item>@string/May</item>
+        <item>@string/Jun</item>
+        <item>@string/Jul</item>
+        <item>@string/Aug</item>
+        <item>@string/Sept</item>
+        <item>@string/Oct</item>
+        <item>@string/Nov</item>
+        <item>@string/Dec</item>
+    </string-array>
+
+</resources>

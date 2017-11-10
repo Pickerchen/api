@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--有网关无设备时的UI-->
+    <include
+        android:id="@+id/fragment_home_empty"
+        layout="@layout/fragment_home_empty"
+        android:visibility="gone" />
+
+    <!--无网关时的UI-->
+    <include
+        android:id="@+id/fragment_home_init"
+        layout="@layout/fragment_home_init"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/fragment_home_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="none"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dp100"
+            android:paddingLeft="@dimen/dp_common_padding"
+            android:paddingRight="@dimen/dp_common_padding">
+
+            <com.rrioo.smartlife.widget.BaseTextView
+                style="@style/main_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="@string/security_mode" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/main_mode_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_security_mode_bg"
+                android:minHeight="@dimen/dp124" />
+
+            <com.rrioo.smartlife.widget.BaseTextView
+                style="@style/main_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_common_padding"
+                android:text="@string/scene" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_security_mode_bg"
+                android:minHeight="@dimen/dp124">
+
+                <com.rrioo.smartlife.widget.BaseTextView
+                    android:id="@+id/id_fragment_home_create_scene_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical"
+                    android:drawableRight="@drawable/btn_setting_default"
+                    android:gravity="center_vertical"
+                    android:text="@string/create_scene"
+                    android:textSize="@dimen/text_size_h3" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/main_scene_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/dp5"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_common_padding">
+
+                <com.rrioo.smartlife.widget.BaseTextView
+                    style="@style/main_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/installed_device" />
+
+                <com.rrioo.smartlife.widget.BaseTextView
+                    android:id="@+id/main_device_edit_done_tv"
+                    style="@style/main_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/dp8"
+                    android:text="@string/done"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/main_device_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.rrioo.smartlife.widget.BaseTextView
+                style="@style/main_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_common_padding"
+                android:text="@string/room" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/main_room_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

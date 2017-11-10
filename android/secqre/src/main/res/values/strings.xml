@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">secQre</string>
+
+    <string name="navigation_dashboard">Dashboard</string>
+    <string name="navigation_my_home">My Home</string>
+    <string name="navigation_scene">Scene</string>
+    <string name="navigation_camera">Camera</string>
+    <string name="navigation_settings">Settings</string>
+
+    <string name="tap_to_set">Tap to set</string>
+    <string name="want_to_happen">what do you want to happen?</string>
+    <string name="turn_on_devices">Turn on these lights or switches</string>
+    <string name="turn_off_devices">Turn off these lights or switches</string>
+    <string name="set_dimmers">Set dimmers to this level</string>
+    <string name="set_smart_home_monitor">Set smart Home Monitor to</string>
+    <string name="lock_these_doors">Lock these doors</string>
+    <string name="unlock_these_doors">Unlock these doors</string>
+    <string name="open_close_door">Open or close garage doors</string>
+    <string name="set_thermostat">Set the thermostat</string>
+
+    <!-- Dashboard -->
+    <string name="mode_away">ARM(AWAY)</string>
+    <string name="mode_stay">ARM(STAY)</string>
+    <string name="mode_disarm">DISARM</string>
+    <string name="automation">Automation</string>
+    <string name="security">Security</string>
+    <string name="dashboard_control">Control</string>
+    <string name="dashboard_sensor">Sensor</string>
+    <string name="no_device">No Device</string>
+    <string name="configure">Configure</string>
+    <string name="monitor_your_home">Monitor your home for carbonmonoxide, fire, intrusion, leak and much more.</string>
+    <string name="select_sensors_monitor">Select sensors to monitor when the home is unoccupied.</string>
+    <string name="security_tips">Congigure intrusion alarm &amp; notification.</string>
+    <string name="switch_sensor">Use every open/close sensor but no motion sensor</string>
+    <string name="next">Next</string>
+    <string name="select_sensors">Select Sensors</string>
+    <string name="installed_device">Installed Devices</string>
+    <string name="add_favorite_device">Add favorite device</string>
+    <string name="delete">Delete</string>
+    <string name="exit_edit">Exit edit</string>
+    <string name="did_not_find_model">Did not find mode! Please connect to the home.</string>
+    <string name="mode_away_hint">Open all sensor</string>
+    <string name="mode_stay_hint">Open all sensor,besides infrared sensor</string>
+    <string name="mode_disarm_hint">Open all sensor,besides infrared sensor, door contact sensor
+        and shock sensor</string>
+
+
+    <!-- My Home -->
+    <string name="home_devices">Devices</string>
+    <string name="home_rooms">Rooms</string>
+    <string name="home_family">Members</string>
+    <string name="save_warn">Do you want to save the change?</string>
+    <string name="name_exists">This name already exists!</string>
+    <string name="name_blank">Name can not be blank!</string>
+
+    <!-- Device -->
+    <string name="action_device">Action Device</string>
+    <string name="sensor">Sensor</string>
+    <string name="remote">Remote</string>
+    <string name="door_sensor">Door Sensor</string>
+    <string name="motion_sensor">Motion sensor</string>
+    <string name="temp_hum_sensor">Temperature &amp; Humidity detector</string>
+    <string name="light_device">Light</string>
+    <string name="zha_relay">Relay</string>
+    <string name="outlet_device">Outlet</string>
+    <string name="zha_sensor">ZHA Sensor</string>
+    <string name="smoke_sensor">Smoke Sensor</string>
+    <string name="gas_sensor">Gas Sensor</string>
+    <string name="co_sensor">CO Sensor</string>
+    <string name="shock_sensor">Shock Sensor</string>
+    <string name="leak_sensor">Water Leakage Sensor</string>
+    <string name="security_control_sensor">Security Control Sensor</string>
+    <string name="rcu">RCU</string>
+
+    <string name="thermostat_device">Thermostat</string>
+    <string name="camera">camera</string>
+
+
+    <string name="emergency_sensor">Emergency Sensor</string>
+    <string name="alertor_sensor">Alertor Sensor</string>
+    <string name="humiture_sensor">Temperature &amp; Humidity detector</string>
+    <string name="unknown_device">Unknown Device</string>
+    <string name="is_successfully_added">is successfully added</string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="stop">Stop</string>
+    <string name="edit_device">Edit device</string>
+    <string name="add_device">Add device</string>
+    <string name="remove_device">Remove device</string>
+    <string name="delete_device_warn">Do you want to delete this device?</string>
+    <string name="looking_for_device">Looking for your new device\u2026</string>
+    <string name="device_name">Give your device a name</string>
+    <string name="select_room">Select a room</string>
+    <string name="select_camera">Select a camera</string>
+
+    <!-- Room -->
+    <string name="delete_room_warn">Do you want to delete this room?</string>
+    <string name="add_new_room">Add new room</string>
+    <string name="room_name">Give your room a name</string>
+    <string name="select_device">Add device to your room</string>
+    <string name="edit_room">Edit room</string>
+    <string name="remove_room">Remove room</string>
+    <string name="default_room">Default room</string>
+
+    <!-- Scene -->
+    <string name="add_new_scene">Add new scene</string>
+    <string name="edit_scene">Edit scene</string>
+    <string name="change_position">Change position</string>
+    <string name="scene_name">Give your scene a name</string>
+    <string name="remove_scene">Remove scene</string>
+    <string name="delete_scene_warn">Do you want to delete this scene?</string>
+
+    <!--Camera-->
+    <string name="please_open_camera">Please open camera</string>
+    <string name="camera_offline">Camera offline</string>
+    <string name="camera_disconnect">Camera disconnect</string>
+    <string name="reconnect_camera">Try to reconnect camera</string>
+    <string name="screenshot_failure">screenshot failure, please try again</string>
+    <string name="screenshot_success">screenshot success,save path：</string>
+
+    <!-- Settings -->
+    <string name="pair_home">Pair Home</string>
+    <string name="notification">Notification</string>
+    <string name="security_mode">Security Mode</string>
+    <string name="select_security_mode">Select security mode</string>
+    <string name="device">Device</string>
+    <string name="room">Room</string>
+    <string name="scene">Home Automation Scene</string>
+    <string name="members">Members</string>
+    <string name="region">Region settings</string>
+    <string name="support">Support</string>
+    <string name="room_device">Device &#160;&amp;&#160;Room</string>
+
+    <string name="add_home">Add home</string>
+    <string name="temperature_scale">Temperature scale</string>
+
+    <string name="camera_permission_denied">Camera permission denied!</string>
+    <string name="confirm_on_tv">Confirm on TV</string>
+
+    <string name="anew_add_home">Please delete home, and add home anew!</string>
+
+
+    <!-- Support-->
+    <string name="version">Version</string>
+
+
+    <!-- Temperature scale (℃ ℉) -->
+    <string name="temp_scale_c">℃</string>
+    <string name="temp_scale_f">℉</string>
+    <string name="remove_home">Remove home</string>
+    <string name="add_home_success">Add home successfully!</string>
+    <string name="add_home_failed">Failed to add home!</string>
+    <string name="add_home_timeout">Add home timeout!</string>
+    <string name="add_home_user_cancel">User cancel add home!</string>
+    <string name="add_home_identity_not_legal">User identity is not legal!</string>
+    <string name="add_home_exist">Home already exists!</string>
+    <string name="add_home_anew">Add home anew</string>
+    <string name="home_connected">The house has been connected</string>
+    <string name="home_selected">The house has been selected</string>
+
+    <string name="connection_successful">Connect to home successfully</string>
+    <string name="connection_failed">Connect to home failure!</string>
+    <string name="connection_disconnect">Home Disconnected!</string>
+    <string name="connection_cancel">Connection Cancel!</string>
+    <string name="connection_timeout">Connection Timeout!</string>
+    <string name="authentication_failed">Failed to pass the authentication!</string>
+
+    <string name="scan_qr_info_tips">Please scan the QR code in TV to pair your mobile phone</string>
+    <string name="auto_home_name">Home<xliff:g id="index">%1$d</xliff:g></string>
+    <string name="done">Done</string>
+    <string name="try_again">Try again</string>
+    <string name="home_name">Give your home a name</string>
+    <string name="photo">Photo</string>
+
+    <string name="home_name_blank">Home name cannot be blank!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete_home_warn">Do you want to delete this home?</string>
+
+
+    <!--Network-->
+    <string name="respond_time_out">Respond timeout</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="no_network">Without a network connection!</string>
+    <string name="please_connect_home">Please connect home</string>
+
+    <!--other-->
+    <string name="press_again_to_exit">Press again to exit</string>
+    <string name="no_sdcard">no sdcard</string>
+    <string name="pull_load_more">pull load more</string>
+    <string name="loosen_load">loosen load</string>
+    <string name="pull_load">pull load</string>
+    <string name="loading">loading&#8230;</string>
+
+    <!--Common-->
+    <string name="confirm">"Confirm"</string>
+    <string name="back">Back</string>
+    <string name="edit">Edit</string>
+
+    <!--Members-->
+    <string name="identity_timeout">The identity authentication timeout</string>
+
+    <!--Log-->
+    <string name="log">Log</string>
+    <string name="no_log">no log</string>
+    <string name="alert_log">Alert Log</string>
+    <string name="look_alert_log">Look alert log ></string>
+
+
+    <!--设备状态语义化-->
+    <string name="unknown_status">Offline</string>
+    <string name="device_added">device added</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="door_open">open the door</string>
+    <string name="door_close">close door</string>
+    <string name="thing_move">something move</string>
+    <string name="sensor_trigger">warning</string>
+    <string name="sensor_trigger_infrared">Motion</string>
+    <string name="sensor_get_right">normal</string>
+
+
+    <string name="door_sensor_status_normal">Closed</string>
+    <string name="door_sensor_status_trigger">Open</string>
+    <string name="motion_sensor_status_trigger">Motion</string>
+
+
+    <!--日期-->
+    <string name="format_date_no_year">M/d</string>
+    <string name="format_date_month">MMMM</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="add_new_device">Add more device</string>
+    <string name="add_step_one_motion_sensor">Removing insulator make device on power</string>
+    <string name="add_step_two_motion_sensor">Press  networking key for 2 second till green LED flash quickly</string>
+    <string name="add_step_three_motion_sensor">If the status  indicator light not green flashing ,please press the netwroking key for 10 second</string>
+    <string name="next_when_green_flashing">When green LED flash quickly ,please press Next</string>
+    <string name="add_step_one_socket">Insert smart socket into the plug</string>
+    <string name="add_step_two_socket">Press  networking key for 3 second till green LED flash quickly</string>
+    <string name="add_step_three_socket">If the status  indicator light not green flashing ,please press the netwroking key for 10 second</string>
+
+    <string name="add_step_one_combustible">Insert combustible gas sensor into the plug</string>
+    <string name="add_step_two_combustible">When a "beep" sound once ,then red  &amp; green &amp; yellow LED flash alternately,eventually the flash stops 3 munutes later,the sensor has entered into normalworking state</string>
+    <string name="add_step_one_smoke">Insert smoke sensor sensor into the plug</string>
+
+    <string name="socket">Socket</string>
+    <string name="help">Help</string>
+    <string name="add_device_failed">Failed to add device</string>
+    <string name="brightness">Brightness</string>
+    <string name="tap_turn_on">Tap to turn on</string>
+    <string name="color">Color</string>
+    <string name="tap_turn_off">Tap to turn off</string>
+    <string name="reading">Reading</string>
+    <string name="relaxing">Relaxing</string>
+    <string name="working">Working</string>
+    <string name="standard_definition">Standard Definition</string>
+    <string name="high_definition">High Definition</string>
+    <string name="add_device_timeout">Add device timeout</string>
+
+    <string name="current_tem">Current Tem.</string>
+    <string name="target_tem">Target Tem.</string>
+
+
+    <string-array name="device_name">
+        <item>Sensor</item>
+        <item>Motion sensor</item>
+        <item>Door Sensor</item>
+        <item>Temperature Humidity detector</item>
+        <item>Leak Sensor</item>
+        <item>Combustible Gas Sensor</item>
+        <item>Smoke Sensor</item>
+
+        <item>Action Device</item>
+        <item>Shock Sensor</item>
+
+        <!-- <item>Remote</item>-->
+        <item>RCU</item>
+
+        <!-- <item>Sensor</item>
+         <item>Motion sensor</item>
+         <item>Light</item>
+         <item>Outlet</item>
+         <item>ZHA Sensor</item>
+         <item>Gas Sensor</item>
+         <item>CO Sensor</item>
+         <item>Security Control Sensor</item>
+         <item>Emergency Sensor</item>
+         <item>Alertor Sensor</item>-->
+
+    </string-array>
+
+    <string name="home">Home</string>
+    <string name="guide_add_home">Click on the \" Pair Home \" , \n and scan QR code on TV \n to start building your \n home .</string>
+    <string name="guide_set_camera">Set Wifi camera in secQre \n setting on TV , monitor \n your home in realtime .</string>
+    <string name="guide_add_device">Start building your home \n by adding devices.</string>
+
+    <string name="create_scene">Create scene in  \"&#160;</string>
+    <string name="create_scene2"> &#160;\"</string>
+    <string name="more">More</string>
+    <string name="less">Less</string>
+
+    <string name="camera_dialog">you are using mobile network,\n which will generate traffic data. </string>
+    <string name="play">Play</string>
+    <string name="cancel">Cancel</string>
+    <string name="watch">Watch</string>
+    <string name="string_delete_dev_title">Tip</string>
+    <string name="string_delete_dev_msg">Do you want to remove \" %1$s \" from \"Favorite Devices\"?</string>
+    <string name="sure">Sure</string>
+    <string name="delete_dev">Remove from favorite devices</string>
+    <string name="add_devices">Add to favorite devices</string>
+    <string name="net_error">Connection unsuccessful</string>
+    <string name="check_out_video">Check out video ></string>
+
+
+    <string name="Jan">Jan</string>
+    <string name="Feb">Feb</string>
+    <string name="Mar">Mar</string>
+    <string name="Apr">Apr</string>
+    <string name="May">May</string>
+    <string name="Jun">Jun</string>
+    <string name="Jul">Jul</string>
+    <string name="Aug">Aug</string>
+    <string name="Sept">Sept</string>
+    <string name="Oct">Oct</string>
+    <string name="Nov">Nov</string>
+    <string name="Dec">Dec</string>
+    <string name="ten_second_video">Ten Second Video</string>
+    <string name="save_tips">Saved</string>
+    <string name="save_success">Saving Success</string>
+    <string name="hint">Hint</string>
+    <string name="create_automation">Create automation</string>
+    <string name="string_auto_hint">Your accessories can automatically perform actions based on criteria such as your condition or time of day.</string>
+    <string name="when_this_happens">When this happens</string>
+    <string name="do_this">Do this</string>
+    <string name="condition">Condition</string>
+    <string name="hint_no_auto_dev">Please select a device to bind</string>
+    <string name="tips_on_off">Turn %1$s the light when it meet condition</string>
+    <string name="tip_auto_item_top">The %1$s state turn %2$s the %3$s</string>
+    <string name="hint_delete_auto">Whether or not delete this automation?</string>
+    <string name="connecting">connecting...</string>
+    <string name="ok">ok</string>
+    <string name="string_camera_hint">操作需要相机权限，应用将要申请相机权限</string>
+    <string name="string_permission">在设置-应用-secQre-权限中开启%1$s权限，以正常使用secQre功能</string>
+    <string name="apply_permission">权限申请</string>
+    <string name="opend">去开启</string>
+
+    <string name="did_not_find_home">Did not find home! Please connect to the home.</string>
+    <string name="connect_network_failed">Network connection failed, please check network condition</string>
+    <string name="string_window">[悬浮窗]</string>
+    <string name="record_time_format">Recording %1$s:%2$s:%3$s</string>
+    <string name="snapshot_succ">Take screenshot success!</string>
+    <string name="not_support">Not support!</string>
+    <string name="record_fail">Record failed!</string>
+    <string name="record_succ">Record file path</string>
+    <string name="device_and_room">Devices &amp; Rooms</string>
+    <string name="turn_off">Turn off</string>
+    <string name="turn_on">Turn on</string>
+    <string name="refrigeration">refrigeration</string>
+    <string name="heating">heating</string>
+    <string name="title_activity_test">TestActivity</string>
+</resources>

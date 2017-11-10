@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_toast"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dip">
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:id="@+id/tv_toast_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_common_padding_large"
+        android:layout_marginRight="@dimen/dp_common_padding_large"
+        android:layout_marginTop="@dimen/dp5"
+        android:layout_marginBottom="@dimen/dp5"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:textColor="#ffffff"
+        android:textSize="17sp" />
+</LinearLayout>

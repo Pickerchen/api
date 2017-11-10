@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidsurpportlib/androidsurpportlib.iml" filepath="$PROJECT_DIR$/androidsurpportlib/androidsurpportlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hsl/hsl.iml" filepath="$PROJECT_DIR$/hsl/hsl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/langtao/langtao.iml" filepath="$PROJECT_DIR$/langtao/langtao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logger/logger.iml" filepath="$PROJECT_DIR$/logger/logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p/p2p.iml" filepath="$PROJECT_DIR$/p2p/p2p.iml" />
+      <module fileurl="file://$PROJECT_DIR$/secQreNew3.0.iml" filepath="$PROJECT_DIR$/secQreNew3.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/secqre/secqre.iml" filepath="$PROJECT_DIR$/secqre/secqre.iml" />
+    </modules>
+  </component>
+</project>

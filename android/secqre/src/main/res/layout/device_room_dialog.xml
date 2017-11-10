@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/default_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/room_device_item_bg"
+        android:orientation="vertical">
+
+        <com.rrioo.smartlife.widget.BaseTextView
+            android:background="@drawable/button_ripple"
+            android:id="@+id/device_room_dialog_tv_add_device"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_text_height"
+            android:gravity="center"
+            android:text="@string/add_device"
+            android:textColor="@color/text_blue"
+            android:textSize="@dimen/text_size_h5" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/line_gray" />
+
+        <com.rrioo.smartlife.widget.BaseTextView
+            android:background="@drawable/button_ripple"
+            android:id="@+id/device_room_dialog_tv_add_room"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_text_height"
+            android:gravity="center"
+            android:text="@string/add_new_room"
+            android:textColor="@color/text_blue"
+            android:textSize="@dimen/text_size_h5" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/line_gray" />
+
+        <com.rrioo.smartlife.widget.BaseTextView
+            android:background="@drawable/button_ripple"
+            android:id="@+id/device_room_dialog_tv_edit_room"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_text_height"
+            android:gravity="center"
+            android:text="@string/edit_room"
+            android:textColor="@color/text_blue"
+            android:textSize="@dimen/text_size_h5" />
+    </LinearLayout>
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:id="@+id/device_room_dialog_tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_text_height"
+        android:layout_marginTop="@dimen/default_padding"
+        android:background="@drawable/room_device_item_bg"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textColor="@color/red"
+        android:textSize="@dimen/text_size_h5" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_ripple"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/id_adapter_add_device_iv"
+        android:layout_width="@dimen/dp60"
+        android:layout_height="@dimen/dp60"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp20"
+        android:scaleType="center"
+        android:src="@drawable/ic_montion_device_setting" />
+
+    <com.rrioo.smartlife.widget.BaseTextView
+        android:id="@+id/id_adapter_add_device_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_toRightOf="@+id/id_adapter_add_device_iv"
+        android:lines="1"
+        android:text="@string/motion_sensor"
+        android:textColor="@color/text_dark"
+        android:textSize="@dimen/text_size_h4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dp20"
+        android:src="@drawable/btn_nest_nor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:layout_alignLeft="@+id/id_adapter_add_device_tv"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginRight="@dimen/dp10"
+        android:background="@color/line_color" />
+</RelativeLayout>
